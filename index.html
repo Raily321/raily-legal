@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal — Raily</title>
+  <meta name="description" content="Legal documents for Raily: Privacy Policy and Terms of Use.">
+  <style>
+    :root {
+      --teal: #0D5C58;
+      --teal-soft: #E6F3F2;
+      --ink: #1A2423;
+      --muted: #5A6B69;
+      --line: #D5E3E1;
+      --bg: #F7FBFA;
+      --card: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at top left, rgba(13, 92, 88, 0.12), transparent 50%),
+        linear-gradient(180deg, var(--teal-soft) 0%, var(--bg) 40%);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    .brand {
+      color: var(--teal);
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 2.6rem);
+      line-height: 1.15;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0 0 28px;
+    }
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+    a.card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px 22px;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    a.card:hover,
+    a.card:focus-visible {
+      border-color: var(--teal);
+      transform: translateY(-1px);
+      outline: none;
+    }
+    a.card h2 {
+      margin: 0 0 6px;
+      font-size: 1.25rem;
+      color: var(--teal);
+    }
+    a.card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+    .meta {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .meta a { color: var(--teal); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">Raily</div>
+    <h1>Legal</h1>
+    <p class="lead">
+      Privacy and terms for Raily — the family drying rail slot tracker and laundry pickup
+      inventory app for iOS.
+    </p>
+
+    <div class="grid">
+      <a class="card" href="privacy.html">
+        <h2>Privacy Policy</h2>
+        <p>Local-first storage, on-demand permissions, purchases, and data practices.</p>
+      </a>
+      <a class="card" href="terms.html">
+        <h2>Terms of Use</h2>
+        <p>License, StoreKit coins, offline use, disclaimers, and contact.</p>
+      </a>
+    </div>
+
+    <p class="meta">
+      Contact: <a href="mailto:support@raily.app">support@raily.app</a>
+    </p>
+  </div>
+</body>
+</html>
